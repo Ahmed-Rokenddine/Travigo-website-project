@@ -609,6 +609,12 @@ textarea{
 	#childWrapper{
 		flex-direction: column;
 	}
+	.titles{
+		flex-direction: column;	
+	}
+	.adabi{
+		flex-direction: column;	
+	}
 }
 
 @media (max-width: 575px){
