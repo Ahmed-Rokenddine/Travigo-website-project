@@ -249,7 +249,7 @@ header.sticky{
 .ilmi {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	gap: 50px;
 
 }
@@ -614,6 +614,9 @@ textarea{
 	}
 	.adabi{
 		flex-direction: column;	
+	}
+	.ilmi{
+		gap: 10px;
 	}
 }
 
