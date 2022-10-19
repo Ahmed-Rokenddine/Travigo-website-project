@@ -299,17 +299,18 @@ section.solid {
   }
   .mail{
 	position: relative;
-    left: 261px;
+    left: 20%;
 	font-weight: bold;
 	font-size: 21px;
   }
   .mail2{
 	text-align: center;
+	position: relative;
     }
     .mail3{
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
     }
   .titl{
 	position: relative;
@@ -604,6 +605,9 @@ textarea{
 	.list{
 		width: 50%;
 		margin-bottom: 12px;
+	}
+	#childWrapper{
+		flex-direction: column;
 	}
 }
 
